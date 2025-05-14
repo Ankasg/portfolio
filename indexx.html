@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anusha NS - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1>Anusha NS</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg">
+        <div class="container" data-aos="fade-up">
+            <h2 class="typewriter">Hi, I'm Anusha NS</h2>
+            <p id="tagline"></p>
+            <a href="#contact">Let's Collaborate</a>
+        </div>
+        <!-- Particles -->
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="ANUSHAAAA.jpg" alt="Anusha NS" class="profile-img">
+            <p>
+                I'm a passionate Full Stack Developer skilled in HTML, CSS, JavaScript, SQL, Java, and Python. I enjoy creating dynamic and responsive web applications, combining strong front-end design with efficient back-end logic. I'm always eager to learn, grow, and contribute to innovative tech solutions.
+            </p>
+            <a href="ANUSHAA_KASYAP.pdf" class="resume-btn" target="_blank" data-aos="fade-up" data-aos-delay="200">Download My Resume</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" data-aos="fade-up">
+        <div class="container">
+            <h2>My Creations</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-tilt data-tilt-max="15">
+                    <img src="https://via.placeholder.com/300x200" alt="Online Notice Board System">
+                    <h3>Online Notice Board System</h3>
+                    <p>The project aims to create an efficient and user-friendly online notice board system designed to streamline real-time posting, management, and access to notices, announcements, and updates. The system facilitates seamless communication within an organization by centralizing announcements, ensuring that all users can quickly receive notifications. Provides an intuitive interface for users to post, view, and manage notices efficiently. The interface includes features for easy navigation and real-time notifications to keep users informed. Skills Developed: HTML, CSS, JavaScript, PHP.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-tilt data-tilt-max="15">
+                    <img src="https://via.placeholder.com/300x200" alt="Spam Email Detection">
+                    <h3>Spam Email Detection</h3>
+                    <p>Developed a spam email detection system using artificial intelligence and Python. Leveraging machine learning techniques like Naive Bayes, the model accurately classifies emails as spam or non-spam, enhancing email security. Tech Stack: Python, Machine Learning (Naive Bayes), Scikit-Learn.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-tilt data-tilt-max="15">
+                    <img src="https://via.placeholder.com/300x200" alt="Inventory Management System">
+                    <h3>Inventory Management System</h3>
+                    <p>Built an inventory management system using Java and MySQL, with CRUD operations connected via JDBC. Designed a user-friendly interface for efficient tracking and management, improving data integrity and operational efficiency. Skills Developed: Java, MySQL, JDBC.</p>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card" data-tilt data-tilt-max="15">
+                    <img src="https://via.placeholder.com/300x200" alt="Animal Repellent System for Farmers">
+                    <h3>Animal Repellent System for Farmers</h3>
+                    <p>Designed and implemented an intelligent system using YOLOv5 to detect and identify animals intruding on farmlands. The system alerts farmers in real-time to prevent crop damage by wild animals. Integrated computer vision techniques with Python to ensure accurate detection and minimize false alarms, enhancing farm security and crop protection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" data-aos="fade-up">
+        <div class="container">
+            <h2>My Expertise</h2>
+            <div class="skills-list">
+                <div>
+                    <span>HTML</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div>
+                    <span>CSS</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div>
+                    <span>JavaScript</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <div>
+                    <span>Java</span>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <div>
+                    <span>SQL</span>
+                    <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                </div>
+                <div>
+                    <span>Python</span>
+                    <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Email: <a href="mailto:anushans068@gmail.com">anushans068@gmail.com</a></p>
+            <p>Contact: +91 8431761941</p>
+            <form id="contact-form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="button" id="submit-btn">Send Message</button>
+                <p id="form-message" class="hidden"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Anusha NS. Crafted with Passion.</p>
+            <div class="social-links">
+                <a href="https://github.com/Ankasg" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/anusha-n-s-3533b0229" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@0.11.0/dist/js-confetti.browser.js"></script>
+    <script src="scriptt.js"></script>
+</body>
+</html>
